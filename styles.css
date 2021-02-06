@@ -3,7 +3,7 @@ body {
   display: flex;
   align-items: center;
 }
-> .cards * {
+.cards * {
   box-sizing: border-box;
 }
 .cards {
@@ -24,9 +24,9 @@ body {
   box-shadow: 0 0 3px rgba(0, 0, 0, 1);
   flex: 1;
   max-width: 360px;
-  background-color: #fff;
+  background-color: rgb(230, 23, 23);
   margin: 20px 10px;
-  text-align: center;
+  /* text-align: center; */
   cursor: pointer;
   overflow: hidden;
   color: #2d2d2d;
